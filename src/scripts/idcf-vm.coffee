@@ -15,7 +15,7 @@
 #   bouzuya <m@bouzuya.net>
 #
 parseConfig = require 'hubot-config'
-idcf = require '../idcf'
+idcf = require 'idcf-cloud-api'
 
 config = parseConfig 'idcf-vm',
   endpoint: null

@@ -10,6 +10,10 @@
   "bugs": {
     "url": "https://github.com/bouzuya/hubot-idcf-vm/issues"
   },
+  "dependencies": {
+    "hubot-config": "^1.0.1",
+    "idcf-cloud-api": "^1.0.1"
+  },
   "devDependencies": {
     "coffee-script": "^1.8.0",
     "hubot": "^2.8.0",
@@ -36,9 +40,5 @@
     "robot-debug": "HUBOT_LOG_LEVEL='debug' HUBOT_SHELL_USER_NAME='bouzuya' hubot --adapter shell --name hubot",
     "test": "hss test",
     "watch": "hss watch"
-  },
-  "dependencies": {
-    "hubot-config": "^1.0.1",
-    "request-b": "^1.1.1"
   }
 }
